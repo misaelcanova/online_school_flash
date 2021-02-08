@@ -1,0 +1,10 @@
+D:\Files Personali\Visual_Studio_c#_Progetti_Personali\Flash_videolezioni\Flash_videolezioni\bin\Debug\Flash_videolezioni.exe.config
+D:\Files Personali\Visual_Studio_c#_Progetti_Personali\Flash_videolezioni\Flash_videolezioni\bin\Debug\Flash_videolezioni.exe
+D:\Files Personali\Visual_Studio_c#_Progetti_Personali\Flash_videolezioni\Flash_videolezioni\bin\Debug\Flash_videolezioni.pdb
+D:\Files Personali\Visual_Studio_c#_Progetti_Personali\Flash_videolezioni\Flash_videolezioni\obj\Debug\Flash_videolezioni.csprojAssemblyReference.cache
+D:\Files Personali\Visual_Studio_c#_Progetti_Personali\Flash_videolezioni\Flash_videolezioni\obj\Debug\Flash_videolezioni.Form1.resources
+D:\Files Personali\Visual_Studio_c#_Progetti_Personali\Flash_videolezioni\Flash_videolezioni\obj\Debug\Flash_videolezioni.Properties.Resources.resources
+D:\Files Personali\Visual_Studio_c#_Progetti_Personali\Flash_videolezioni\Flash_videolezioni\obj\Debug\Flash_videolezioni.csproj.GenerateResource.cache
+D:\Files Personali\Visual_Studio_c#_Progetti_Personali\Flash_videolezioni\Flash_videolezioni\obj\Debug\Flash_videolezioni.csproj.CoreCompileInputs.cache
+D:\Files Personali\Visual_Studio_c#_Progetti_Personali\Flash_videolezioni\Flash_videolezioni\obj\Debug\Flash_videolezioni.exe
+D:\Files Personali\Visual_Studio_c#_Progetti_Personali\Flash_videolezioni\Flash_videolezioni\obj\Debug\Flash_videolezioni.pdb
