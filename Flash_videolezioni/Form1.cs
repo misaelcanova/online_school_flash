@@ -18,6 +18,22 @@ namespace Flash_videolezioni
         }
         string out1, out2, out3, out4, out5;
 
+        [System.Runtime.InteropServices.DllImport("user32.dll")]
+        static extern bool SetCursorPos(int x, int y);
+
+        [System.Runtime.InteropServices.DllImport("user32.dll")]
+        public static extern void mouse_event(int dwFlags, int dx, int dy, int cButtons, int dwExtraInfo);
+
+        public const int MOUSEEVENTF_LEFTDOWN = 0x02;
+        public const int MOUSEEVENTF_LEFTUP = 0x04;
+
+        public static void LeftMouseClick(int xpos, int ypos)
+        {
+            SetCursorPos(xpos, ypos);
+            mouse_event(MOUSEEVENTF_LEFTDOWN, xpos, ypos, 0, 0);
+            mouse_event(MOUSEEVENTF_LEFTUP, xpos, ypos, 0, 0);
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             
@@ -57,6 +73,13 @@ namespace Flash_videolezioni
 
             System.Threading.Thread.Sleep(1000);
             SendKeys.Send("{Enter}");
+
+            System.Threading.Thread.Sleep(1500);
+            SendKeys.Send("^d");
+            SendKeys.Send("^e");
+
+            System.Threading.Thread.Sleep(4000);
+            LeftMouseClick(1250, 600);
 
         }
     }
